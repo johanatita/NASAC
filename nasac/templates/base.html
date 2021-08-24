@@ -1,13 +1,120 @@
+
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>
-	</title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>NASAC</title>
+     
+    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/stylespage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Inicio del Header-->
+      <ul class="navigation">
+        <li><a href="#">
+          <div>
+            <img src="images/logo.png" alt="" width="120">
+          </div>
+        </a></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="juegos.html">Juegos</a></li>
+        <li><a href="{% url 'nosotros' %}">¿Quienes somos?</a></li>
+        <li><a href="{% url 'login' %}">Logueate</a></li>
+      </ul>
+      
+       <!--Inicio del body-->
+      <div class="body">
+        <div class="main">
+          <img src="img/background.png" class="background-img" alt="">
+        </div>
+        <br><br>
+
+        <div class="categories">
+            
+            
+             
+              <h2>NASAC ------
+              ACA VAN A ESTAR LAS IMAGENES </h2>
+              <p>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              </p>
+            </div>
+          
+        </div>
+        <br>
+        
+
+        <div class="container">
+          <h1 class="page-title"></h1>
+          <img src="images/" alt="" class="background-img">
+        </div>
+       
+        <div class="card2">
+          <img src="" width="350" alt="" class="img-sg">
+          <p>Bienvenid@s al juego de preguntas y respuestas sobre la Provincialización del Chaco.</p>
+          <div class="contenido" >
+            <h3 style="font-size: 30px;"></h3>
+            <p style="font-size: 20px;"></p>
+            <br>
+            <a href="http://turismo.chaco.gob.ar/" class="btn" target="_">más info</a>
+          </div>
+        </div>
+        
+
+       
+       <!--Fin del body-->
+                  
+      </div>
+
+
+        <div>
+
+              {% block contenido %}
+  
+              {% endblock contenido %} 
+        </div>
+
+
+      <!--Inicio del footer-->
+      <footer class="footer">
+        <div class="container">
+                <div class="footer-col-1">
+                <img src="images/logo.png" alt="" class="img-footer">
+                
+                </div>
+                <div class="footer-col-2">
+                  <h3>Equipo</h3>
+                  <ul>
+                    <li>Sobre Nosotros</li>
+                    <li></li>
+                    <li></li>
+                    <li>Contacto</li>
+                  </ul>
+              </div>
+              <div class="footer-col-3">
+                  <h3>Seguinos</h3>
+        <ul>
+          <li><a href="https://es-la.facebook.com/pg/posts/" target="_blank">Facebook</a></li>
+          <li><a href="https://www.instagram.com/?hl=es/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.youtube.com/channel/" target="_blank">Youtube</a></li>
+        
+        </ul>
+              </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2021 - NASAC</p>
+
+             <img style="border:0;width:88px;height:31px">           
+                   
+    </footer>
+
+  </body>
+
 </html>
