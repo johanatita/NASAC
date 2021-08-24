@@ -1,0 +1,122 @@
+body{
+  background-color: white;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/*NAVBAR*/
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  margin: 0; 
+  background: black;
+  position: fixed;
+  width: 100%;
+}
+
+.navigation a { 
+  text-decoration: none;
+  display: block;
+  color: white; 
+  text-align: center; 
+  padding: 1em; 
+}
+
+.navigation a:hover {
+  background: rgb(120,120,120);
+}
+
+.navigation img{
+  width: 120px;
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+}
+
+.without-link{
+  text-decoration: none;
+  display: block;
+  color: white; 
+  text-align: center; 
+  padding: 1em; 
+  background-color: rgb(120,120,120);
+  font-weight: bold;
+}
+
+.navigation li:last-of-type a {
+  border-bottom: none;
+}
+
+/*FOOTER*/
+.container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  list-style: none;
+  margin: 0; 
+}
+
+.footer{
+  background: #000;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 20px;
+}
+.footer p{
+  color: #8a8a8a;
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3{
+  min-width: 250px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+} 
+
+ul{
+  list-style-type: none;
+
+}
+
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+
+.footer a{
+  color: #8a8a8a;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: rgb(184, 105, 3);
+}
+
+.Copyright{
+  text-align: center;
+}
+.img-footer{
+  width: 250px;
+  padding-top: 20px;
+}

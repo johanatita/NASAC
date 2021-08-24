@@ -1,0 +1,28 @@
+@media (max-width: 600px) {
+  table { width: 100%; }
+  thead { display: none; }
+  tbody td { display: flow-root; text-align: center; }
+}
+table { width: 200px; }
+tr, td, th { align-items: center; }
+.categories { display: flex; flex-flow: row wrap; padding: 5%; align-items: center; justify-content: space-around; }
+.main { background-color: rgb(20, 20, 20); width: 100%; flex-direction: column; }
+
+h3 { font-family: "Titillium Web", sans-serif; font-weight: bold; }
+p { font-family: "Titillium Web", sans-serif; align-items: center; }
+a { font-family: "Titillium Web", sans-serif; color: rgb(230, 162, 153); text-decoration: none; }
+.background-img { width: 100%; }
+.card2 { background-color: rgb(128, 25, 128); width: 80%; padding: 30px; align-items: center; display: flex; flex-flow: row wrap; margin: 30px 0px 30px 30px; }
+.contenido { color: rgb(255, 255, 255); flex-direction: row; align-self: center; width: 50%; padding: 50px; }
+.btn { width: 10%; background: rgb(196, 66, 49); color: rgb(255, 255, 255); padding: 8px 30px; border-radius: 30px; justify-content: center; align-items:center }
+.img-aco { width: 50%; height: 20%; display: block; margin: auto; }
+h1 { text-align: center; color: rgb(200, 183, 188); font-size: 40px; font-weight: 700; }
+.history { display: flex; text-align: left; align-content: center; background-image: url("../images/background.jpeg"); background-size: 100%; background-repeat: repeat-x; }
+.history p { font-family: "Titillium Web", sans-serif; font-weight: 900; line-height: 40px; font-size: 30px; padding: 65px 65px 30px; text-indent: 50px; text-align: justify; background-color: rgba(28, 28, 33, 0.6); }
+.img-parts { display: block; margin: auto; width: 70%; }
+.img-container p { font-family: "Titillium Web", sans-serif; font-size: 25px; font-weight: 900; margin-bottom: 10px; }
+.img-part { box-shadow: rgb(0, 0, 0) 0px 0px 40px -10px; border-radius: 8px; padding: 10px; width: 300px; height: 200px; margin-top: 10px; margin-bottom: 10px; line-height: 70%; position: relative; text-align: center; }
+.img-part:hover { filter: grayscale(100%); }
+.juego, tr, th, td { border: 2px solid rgb(0, 0, 0); border-collapse: collapse; margin: auto; width: 700px; height: 50px; position: relative; overflow-x: auto; }
+.box { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-around; }
+.imagen { width: 200px; justify-content: center; }
