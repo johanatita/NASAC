@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
-AUTH_USER_MODELS = "usuarios.Usuario"
+AUTH_USER_MODEL = "usuarios.Usuario"
 
 # LOGIN_REDIRECT_URL = reverse_lazy ('home')
 # LOGOUT_REDIRECT_URL = reverse_lazy ('login')
